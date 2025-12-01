@@ -1,0 +1,40 @@
+name: planner_plus
+description: Planner+ — offline-first task planner
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Состояние
+  flutter_riverpod: ^2.3.6
+
+  # Навигация
+  go_router: ^8.0.0
+
+  # Сеть
+  dio: ^5.0.3
+  connectivity_plus: ^4.0.0
+
+  # Локализация
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+
+  # Локальное хранилище
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Утилиты
+  uuid: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
